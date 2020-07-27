@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom'
 
 import './index.scss'
 
-const Root = () => {
-  console.error('')
-  return <div>working</div>
-}
+const Root = () => <div>working</div>
 
 ReactDOM.render(<Root />, document.getElementById('app'))
